@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+	<style>
+	input{	 
+	  background-color:rgb(176,196,153,0.2);
+	  font-family:"仿宋";
+	  font-size:20px;
+	  border:none;
+	  border-radius:10px;
+	  height:30px;
+	  margin-bottom:15px;
+	}	
+	input.name{
+	  margin-right:20px;
+	  width:210px;	 
+	}
+	input.account{	  	
+	  width:450px;	 
+	}
+    input.name:hover{
+	  background-color:Yellow;
+	  border:1px Red solid;
+	  height:28px;
+	  width:208px;
+    }	  
+	input.account:hover{
+	  background-color:Yellow;
+	  border:1px Red solid;
+	  height:28px;
+	  width:448px;	
+	}
+	input:active{
+	  background-color:White;
+	}
+	#button:hover{
+	  background-color:DarkGreen;
+	  border:2px Red solid;
+	  color:Yellow;
+	}
+	#button{
+	  background-color:LimeGreen;
+	  color:White;
+	  }
+	#button:active{           
+	  background-color:Blue;	 
+	}
+	h2{	 
+	  font-family:"Times";	
+	}
+	p{
+	  font-family:"Times";
+	  font-size:15px;
+	}
+	a:link{                   
+	  color:Red;
+	}
+	a:visited{                 
+	  color:Green;
+	}
+	a:hover{                 
+	  color:Red
+	}
+	a:active{                
+	  color:Gold;
+	}
+   	#first{	
+	border:10px Blue solid;
+	width:475px;
+	padding:10px;
+    border-bottom-width:30px;
+	border-radius:5px;
+	margin:auto;
+	}
+	</style>
+  </head>
+  <body>    	  
+   <div id="first">
+     <form action="https://www.google.com" method="GET">	
+      <h2>Set Up</h2>
+      <p>Please fill in this form to create an accout!</p><hr align="left" style="width:459px">      
+	  <label for ="fname"></lable>
+	  <input type="text" class="name" name="fname" placeholder="First Name" >    
+      <label for ="lname"></lable>
+	  <input type="text" class="name" name="lname" placeholder="Last Name" ><br>        
+      <label for ="em"></lable>
+	  <input type="email" class="account" name="em" placeholder="Enter Email" ><br>      
+      <label for ="pw"></lable>
+      <input type="password" class="account" name="pw" placeholder="Enter Password" ><br>        
+      <label for ="rpw"></lable>
+      <input type="password" class="account" name="rpw" placeholder="Repeat Password">
+      <hr align="left" style="width:459px">	    
+      <input type="checkbox" style="vertical-align:top"><span>I accept the<a href="https://www.google.com" target="_blank">Terms</a>
+	    &<a href="https://www.google.com" target="_blank">Privacy</a>.</span><br>
+      <input type="submit" id="button" style="width:459px ; height:35px;" value="Register">
+    </form>	
+	<footer style=" width:510px;height:35px;margin-bottom:-52px">
+      <p align="center">Already have an account?<a href="form1.html" target="_blank"> Sign in</a>.</p>
+    </footer>
+	</div>
+  <body>
+  
+</html>
